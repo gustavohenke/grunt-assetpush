@@ -1,0 +1,10 @@
+{
+	"bitwise":  true,
+	"curly":    true,
+	"eqeqeq":   true,
+	"forin":    true,
+	"noempty":  true,
+	"undef":    true,
+	"strict":   true,
+	"node":     true
+}
