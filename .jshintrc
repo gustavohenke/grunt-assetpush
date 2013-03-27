@@ -6,5 +6,6 @@
 	"noempty":  true,
 	"undef":    true,
 	"strict":   true,
+	"validthis":true,
 	"node":     true
 }
