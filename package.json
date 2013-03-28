@@ -1,6 +1,6 @@
 {
 	"name":         "grunt-assetpush",
-	"version":      "0.1.0",
+	"version":      "0.1.1",
 	"description":  "Grunt task for appending HTML tags for JS/CSS files",
 	"author": {
 		"name": "Gustavo Henke",
