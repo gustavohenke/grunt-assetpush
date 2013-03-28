@@ -1,5 +1,5 @@
 {
-	"name":         "grunt-contrib-assetpush",
+	"name":         "grunt-assetpush",
 	"version":      "0.1.0",
 	"description":  "Grunt task for appending HTML tags for JS/CSS files",
 	"author": {
@@ -8,10 +8,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url":  "git://github.com/gustavohenke/grunt-contrib-assetpush.git"
+		"url":  "git://github.com/gustavohenke/grunt-assetpush.git"
 	},
 	"bugs": {
-		"url": "https://github.com/gustavohenke/grunt-contrib-assetpush/issues"
+		"url": "https://github.com/gustavohenke/grunt-assetpush/issues"
 	},
 	"main": "Gruntfile.js",
 	"keywords": [

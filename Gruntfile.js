@@ -1,5 +1,5 @@
 /**
- * grunt-contrib-assetpush
+ * grunt-assetpush
  * Grunt task for appending HTML tags for JS/CSS files
  *
  * https://github.com/gustavohenke/grunt-contrib-assetpush
