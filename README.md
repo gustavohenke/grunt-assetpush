@@ -1,4 +1,4 @@
-# grunt-assetpush
+# grunt-assetpush [![Build Status](https://travis-ci.org/gustavohenke/grunt-assetpush.png?branch=master)](https://travis-ci.org/gustavohenke/grunt-assetpush)
 > Append HTML tags for JS/CSS files.
 
 ## Getting started
