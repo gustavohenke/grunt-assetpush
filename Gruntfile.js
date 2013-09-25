@@ -19,8 +19,14 @@ module.exports = function( grunt ) {
 			test: [ "tmp" ]
 		},
 		assetpush: {
-			"tmp/js.html": [ "test/fixtures/*.js" ],
-			"tmp/css.html": [ "test/fixtures/*.css" ],
+			"tmp/js.html": [
+				"test/fixtures/*.js",
+				"http://example.com/my/script.js?cache=123"
+			],
+			"tmp/css.html": [
+				"test/fixtures/*.css",
+				"//example.com/my/style.css"
+			],
 			"tmp/both.html": [ "test/fixtures/*.css", "test/fixtures/*.js" ]
 		},
 		nodeunit: {
