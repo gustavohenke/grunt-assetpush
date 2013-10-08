@@ -59,5 +59,4 @@ module.exports = function( grunt ) {
 	}
 
 	grunt.registerMultiTask( "assetpush", "Append HTML tags for JS/CSS files", task );
-	//grunt.registerTask( "assetpush", "Append HTML tags for JS/CSS files", task );
 };

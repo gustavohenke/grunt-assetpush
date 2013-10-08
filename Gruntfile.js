@@ -31,20 +31,24 @@ module.exports = function( grunt ) {
 		},
 		nodeunit: {
 			tests: [ "test/*_test.js" ]
+		},
+		jscs: {
+			main: [ "tasks/*.js", "test/*.js" ]
 		}
 	});
 
 	// Dependencies
-	grunt.loadNpmTasks("grunt-contrib-jshint");
-	grunt.loadNpmTasks("grunt-contrib-nodeunit");
-	grunt.loadNpmTasks("grunt-contrib-clean");
+	grunt.loadNpmTasks( "grunt-contrib-jshint" );
+	grunt.loadNpmTasks( "grunt-contrib-nodeunit" );
+	grunt.loadNpmTasks( "grunt-contrib-clean" );
+	grunt.loadNpmTasks( "grunt-jscs-checker" );
 
 	// Actually load the module tasks...
-	grunt.loadTasks("tasks");
+	grunt.loadTasks( "tasks" );
 
 	// Clean the tmp folder, run this plugin task, run the unit tests and then clean the tmp folder again.
 	grunt.registerTask( "test", [ "clean", "assetpush", "nodeunit", "clean" ] );
 
 	// By default, just lint JS files and run tests.
-	grunt.registerTask( "default", [ "jshint", "test" ] );
+	grunt.registerTask( "default", [ "jshint", "jscs", "test" ] );
 };
