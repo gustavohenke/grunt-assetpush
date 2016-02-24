@@ -1,14 +1,14 @@
 {
-	"name":         "grunt-assetpush",
-	"version":      "0.2.0",
-	"description":  "Grunt task for appending HTML tags for JS/CSS files",
+	"name": "grunt-assetpush",
+	"version": "0.2.0",
+	"description": "Grunt task for appending HTML tags for JS/CSS files",
 	"author": {
 		"name": "Gustavo Henke",
-		"url":  "https://github.com/gustavohenke"
+		"url": "https://github.com/gustavohenke"
 	},
 	"repository": {
 		"type": "git",
-		"url":  "git://github.com/gustavohenke/grunt-assetpush.git"
+		"url": "git://github.com/gustavohenke/grunt-assetpush.git"
 	},
 	"bugs": {
 		"url": "https://github.com/gustavohenke/grunt-assetpush/issues"
@@ -24,12 +24,12 @@
 		"test": "grunt test"
 	},
 	"devDependencies": {
-		"grunt-contrib-jshint":     "~0.6.4",
-		"grunt-contrib-nodeunit":   "~0.2.1",
-		"grunt-contrib-clean":      "~0.5.0",
-		"grunt-jscs-checker":       "~0.2.0"
+		"grunt-contrib-jshint": "~0.6.4",
+		"grunt-contrib-nodeunit": "~0.2.1",
+		"grunt-contrib-clean": "~0.5.0",
+		"grunt-jscs-checker": "~0.2.0"
 	},
 	"peerDependencies": {
-		"grunt": "~0.4.0"
+		"grunt": ">=0.4.0"
 	}
 }
